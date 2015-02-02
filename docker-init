@@ -1,0 +1,5 @@
+#!/bin/bash
+
+DOCKER_INIT_CONFIG_DIR=/etc/docker-init
+
+exec $*
