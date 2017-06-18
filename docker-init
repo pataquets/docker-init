@@ -15,4 +15,4 @@ fi
 
 run-parts --exit-on-error --lsbsysinit --verbose -- ${DOCKERINIT_CONFIG_DIR}/init.d
 
-exec $*
+exec ${*}
